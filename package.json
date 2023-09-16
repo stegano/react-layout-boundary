@@ -1,0 +1,49 @@
+{
+  "name": "react-layout-boundary",
+  "version": "0.0.1",
+  "description": "By using this component, you can explicitly set layout boundaries in browser rendering to optimize performance or enhance rendering efficiency.",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "eslint": "eslint '{src,pages}/**/*.{ts,tsx}'",
+    "eslint:fix": "eslint '{src,pages}/**/*.{ts,tsx}' --fix",
+    "build": "rm -rf ./bin && webpack --config ./webpack.config.js",
+    "deploy": "npm run build && npm publish --access=public"
+  },
+  "author": "Yongwoo Jung<stegano@naver.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/stegano/react-layout-boundary#readme",
+  "bugs": {
+    "url": "https://github.com/stegano/react-layout-boundary/issues"
+  },
+  "keywords": [
+    "react",
+    "render",
+    "layout",
+    "reflow",
+    "optimize",
+    "performance"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
