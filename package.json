@@ -16,6 +16,10 @@
   "bugs": {
     "url": "https://github.com/stegano/react-layout-boundary/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stegano/react-layout-boundary#readme"
+  },
   "keywords": [
     "react",
     "render",
