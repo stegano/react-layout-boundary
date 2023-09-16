@@ -37,7 +37,7 @@ const Component = () => {
 ```
 
 ### Performance measurement
-> [!] Rendering performance may vary depending on the browser or device environment, and over 50,000 nodes were created on the demo page to observe significant performance differences.
+> [!] Rendering performance can differ depending on the browser or device environment being used. On the demo page, more than 50,000 nodes were created to clearly observe these performance variations.
 
 Demo: https://stackblitz.com/edit/stackblitz-starters-wexrqm
 

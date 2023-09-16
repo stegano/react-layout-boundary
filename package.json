@@ -1,6 +1,6 @@
 {
   "name": "react-layout-boundary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "By using this component, you can explicitly set layout boundaries in browser rendering to optimize performance or enhance rendering efficiency.",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
