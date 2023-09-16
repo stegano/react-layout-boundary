@@ -1,8 +1,8 @@
-# React Layout Boundary: 
+# React Layout Boundary
 ![NPM License](https://img.shields.io/npm/l/react-layout-boundary)
 ![NPM Downloads](https://img.shields.io/npm/dw/react-layout-boundary)
 
-React Layout Boundary: By using this component, you can explicitly set layout boundaries in browser rendering to optimize performance or enhance rendering efficiency
+React Layout Boundary: By using this component, you can explicitly set layout boundaries in browser rendering to optimize performance or enhance rendering efficiency.
 
 ## Installation
 
@@ -29,9 +29,20 @@ import { LayoutBoundary } from "react-layout-boundary";
 const Component = () => {
   // ...
   return (
-    <LayoutBoudary>
+    <LayoutBoundary>
       {/* Place your component content here */}
-    </LayoutBoudary>
+    </LayoutBoundary>
   );
 };
 ```
+
+### Performance measurement
+> [!] Rendering performance may vary depending on the browser or device environment, and over 50,000 nodes were created on the demo page to observe significant performance differences.
+
+Demo: https://stackblitz.com/edit/stackblitz-starters-wexrqm
+
+#### Without LayoutBoundary
+![Without LayoutBoundary](./assets/without-layout-boundary.png)
+
+#### With LayoutBoundary
+![With LayoutBoundary](./assets/with-layout-boundary.png)
