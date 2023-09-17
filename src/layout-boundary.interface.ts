@@ -6,7 +6,7 @@ export interface Props extends PropsWithChildren {
    */
   className?: string;
   /**
-   * Options for element
+   * Options for `LayoutBoundary` element
    * [*] You can disable automatic resizing and adjust the size yourself.
    */
   options?:
@@ -30,11 +30,11 @@ export interface Props extends PropsWithChildren {
          */
         autoResize: false;
         /**
-         * Width of element
+         * Width of the element; only absolute values are accepted.
          */
         width: number;
         /**
-         * Height of element
+         * Height of the element; only absolute values are accepted.
          */
         height: number;
       };

@@ -90,7 +90,7 @@ function LayoutBoundary(props: Props) {
     return () => {
       /**
        * Unbind events when component is unmounted
-       * [!] The event must be released even if it is bound by changing the value of `autoResize`
+       * [!] Even if the value of autoResize is changed, the event must be unbound.
        */
       unbindResizeEvents();
     };
